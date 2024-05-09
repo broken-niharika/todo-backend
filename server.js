@@ -14,6 +14,11 @@ app.use(
     })
 )
 
+app.get('/', async (req, res) => {
+
+    return res.send("This page is working")
+})
+
 
 app.get('/api', async (req, res) => {
 
