@@ -1,4 +1,5 @@
-import { Client } from "pg";
+import pkg from 'pg';
+const { Client } = pkg;
 
 const DATABASE_URL    = "postgresql://niharikareddy_broken:1bmcNFty8AE0cyV9EH8S-g@niha-cluster-7499.g8z.gcp-us-east1.cockroachlabs.cloud:26257/defaultdb?sslmode=verify-full"
 

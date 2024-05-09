@@ -1,6 +1,7 @@
 import express from 'express'
-import { json, urlencoded } from 'body-parser'
-import { get_data, insert_data } from "./database";
+import bparser from 'body-parser';
+const { json, urlencoded } = bparser;
+import { get_data, insert_data } from "./database.js";
 
 
 const app = express()
